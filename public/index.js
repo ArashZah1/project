@@ -3,6 +3,7 @@ class Calculator {
     constructor(previousValueTextElement, currentValueTextElement) {
         this.previousValueTextElement = previousValueTextElement
         this.currentValueTextElement = currentValueTextElement
+        this.clear()
     }
     clear() {
         this.currentValue = ''
